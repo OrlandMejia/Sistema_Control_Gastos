@@ -12,3 +12,340 @@ Stack trace:
 [03-May-2024 04:45:38 Europe/Berlin] Inicio de aplicación WEB
 [03-May-2024 04:45:38 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
 [03-May-2024 04:45:38 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 06:58:27 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 06:58:27 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 06:58:27 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 06:58:27 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 06:58:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::loadModel() in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php:17
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 17
+[03-May-2024 07:01:11 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:01:11 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:01:11 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:01:11 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$view is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 7
+[03-May-2024 07:01:11 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:01:11 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$model is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 18
+[03-May-2024 07:01:11 Europe/Berlin] PHP Deprecated:  Creation of dynamic property View::$d is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 12
+[03-May-2024 07:01:11 Europe/Berlin] PHP Warning:  require(views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:01:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:14
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(12): View->render('login/index.php')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:01:13 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:01:13 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:01:13 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:01:13 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$view is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 7
+[03-May-2024 07:01:13 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:01:13 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$model is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 18
+[03-May-2024 07:01:13 Europe/Berlin] PHP Deprecated:  Creation of dynamic property View::$d is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 12
+[03-May-2024 07:01:13 Europe/Berlin] PHP Warning:  require(views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:01:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:14
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(12): View->render('login/index.php')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:01:52 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:01:52 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:01:52 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:01:52 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$view is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 7
+[03-May-2024 07:01:52 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:01:52 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$model is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 18
+[03-May-2024 07:01:52 Europe/Berlin] PHP Deprecated:  Creation of dynamic property View::$d is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 12
+[03-May-2024 07:01:52 Europe/Berlin] PHP Warning:  require(views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:01:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:14
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(12): View->render('login/index.php')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:01:54 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:01:54 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:01:54 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:01:54 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$view is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 7
+[03-May-2024 07:01:54 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:01:54 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$model is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 18
+[03-May-2024 07:01:54 Europe/Berlin] PHP Deprecated:  Creation of dynamic property View::$d is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 12
+[03-May-2024 07:01:54 Europe/Berlin] PHP Warning:  require(views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:01:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:14
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(12): View->render('login/index.php')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:05:03 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:05:03 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:05:03 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:05:03 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$view is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 11
+[03-May-2024 07:05:03 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:05:03 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$model is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 22
+[03-May-2024 07:05:03 Europe/Berlin] PHP Warning:  require(views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:05:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('login/index.php')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:05:04 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:05:04 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:05:04 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:05:04 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$view is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 11
+[03-May-2024 07:05:04 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:05:04 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$model is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 22
+[03-May-2024 07:05:04 Europe/Berlin] PHP Warning:  require(views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:05:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('login/index.php')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:05:04 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:05:04 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:05:04 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:05:04 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$view is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 11
+[03-May-2024 07:05:04 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:05:04 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$model is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 22
+[03-May-2024 07:05:04 Europe/Berlin] PHP Warning:  require(views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:05:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('login/index.php')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:05:25 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:05:25 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:05:25 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:05:25 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$view is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 11
+[03-May-2024 07:05:25 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:05:25 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$model is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 22
+[03-May-2024 07:05:25 Europe/Berlin] PHP Warning:  require(views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:05:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('login/index.php')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:07:10 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:07:10 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:07:10 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:07:10 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$view is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 11
+[03-May-2024 07:07:10 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:07:10 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$model is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 22
+[03-May-2024 07:07:10 Europe/Berlin] PHP Warning:  require(views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:07:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('login/index.php')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:10:56 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:10:56 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:10:56 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:10:56 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$view is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 11
+[03-May-2024 07:10:56 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:10:56 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$model is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 22
+[03-May-2024 07:10:56 Europe/Berlin] PHP Warning:  require(views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:10:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('login/index.php')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:10:57 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:10:57 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:10:57 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:10:57 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$view is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 11
+[03-May-2024 07:10:57 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:10:57 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$model is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 22
+[03-May-2024 07:10:57 Europe/Berlin] PHP Warning:  require(views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:10:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('login/index.php')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:14:16 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:14:16 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:14:16 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:14:16 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$view is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 11
+[03-May-2024 07:14:16 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:14:16 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$model is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 22
+[03-May-2024 07:14:16 Europe/Berlin] PHP Warning:  require(views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:14:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('login/index.php')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:14:17 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:14:17 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:14:17 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:14:17 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$view is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 11
+[03-May-2024 07:14:17 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:14:17 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$model is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 22
+[03-May-2024 07:14:17 Europe/Berlin] PHP Warning:  require(views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:14:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('login/index.php')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:16:15 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:16:15 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:16:15 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:16:15 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$view is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 11
+[03-May-2024 07:16:15 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:16:15 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$model is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 22
+[03-May-2024 07:16:15 Europe/Berlin] PHP Warning:  require(views/views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:16:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('views/login/ind...')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 17
+[03-May-2024 07:24:56 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:24:56 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:24:56 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:24:56 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$view is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 6
+[03-May-2024 07:24:56 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:24:56 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$model is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 17
+[03-May-2024 07:24:56 Europe/Berlin] PHP Deprecated:  Creation of dynamic property View::$d is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 12
+[03-May-2024 07:24:56 Europe/Berlin] PHP Warning:  require(views/views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:24:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:14
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('views/login/ind...')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:25:54 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:25:54 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:25:54 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:25:54 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$view is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 6
+[03-May-2024 07:25:54 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:25:54 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$model is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 17
+[03-May-2024 07:25:54 Europe/Berlin] PHP Deprecated:  Creation of dynamic property View::$d is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 12
+[03-May-2024 07:25:54 Europe/Berlin] PHP Warning:  require(views/views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:25:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:14
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('views/login/ind...')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:26:40 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:26:40 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:26:40 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:26:40 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$view is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 6
+[03-May-2024 07:26:40 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:26:40 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Login::$model is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\controller.php on line 17
+[03-May-2024 07:26:40 Europe/Berlin] PHP Deprecated:  Creation of dynamic property View::$d is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 12
+[03-May-2024 07:26:40 Europe/Berlin] PHP Warning:  require(views/views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:26:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:14
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('views/login/ind...')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:28:06 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:28:06 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:28:06 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:28:06 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:28:06 Europe/Berlin] PHP Deprecated:  Creation of dynamic property View::$d is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 12
+[03-May-2024 07:28:06 Europe/Berlin] PHP Warning:  require(views/views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:28:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:14
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('views/login/ind...')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:28:31 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:28:31 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 8
+[03-May-2024 07:28:31 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:28:31 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:28:31 Europe/Berlin] PHP Deprecated:  Creation of dynamic property View::$d is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 12
+[03-May-2024 07:28:31 Europe/Berlin] PHP Warning:  require(views/views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:28:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:14
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('views/login/ind...')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(18): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:29:58 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:29:58 Europe/Berlin] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\app.php on line 11
+[03-May-2024 07:29:58 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:29:58 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:29:58 Europe/Berlin] PHP Deprecated:  Creation of dynamic property View::$d is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 12
+[03-May-2024 07:29:58 Europe/Berlin] PHP Warning:  require(views/views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:29:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:14
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('views/login/ind...')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(20): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:30:57 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:30:57 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:30:57 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:30:57 Europe/Berlin] PHP Deprecated:  Creation of dynamic property View::$d is deprecated in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 12
+[03-May-2024 07:30:57 Europe/Berlin] PHP Warning:  require(views/views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:30:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:14
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('views/login/ind...')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(21): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 14
+[03-May-2024 07:31:37 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:31:37 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:31:37 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:31:37 Europe/Berlin] PHP Warning:  require(views/views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 15
+[03-May-2024 07:31:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:15
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('views/login/ind...')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(21): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 15
+[03-May-2024 07:33:19 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:33:19 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:33:19 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:33:19 Europe/Berlin] PHP Warning:  require(views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 15
+[03-May-2024 07:33:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php:15
+Stack trace:
+#0 C:\xampp\htdocs\PHP\ControlGastos\controllers\login.php(15): View->render('login/index.php')
+#1 C:\xampp\htdocs\PHP\ControlGastos\libs\app.php(21): Login->render()
+#2 C:\xampp\htdocs\PHP\ControlGastos\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PHP\ControlGastos\libs\view.php on line 15
+[03-May-2024 07:33:41 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:33:41 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:33:41 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:36:54 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:36:54 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:36:54 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:37:45 Europe/Berlin] Inicio de aplicación WEB
+[03-May-2024 07:37:45 Europe/Berlin] APP::construct-> no hay controlador especificado
+[03-May-2024 07:37:45 Europe/Berlin] Login::construct -> inicio de Login
+[03-May-2024 07:37:45 Europe/Berlin] Login::render -> Carga el Index del Login

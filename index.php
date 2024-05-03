@@ -13,6 +13,11 @@ ini_set("error_log","C:/xampp/htdocs/PHP/ControlGastos/php-error.log");
 error_log("Inicio de aplicación WEB");
 
 //cargar los archivos base para que funcione la aplicacion
-require_once('libs/app.php');
+require_once 'libs/database.php';
+require_once 'libs/controller.php';
+require_once 'libs/model.php';
+require_once 'libs/view.php';
+require_once 'libs/app.php';
 
+require_once('config/config.php');
 $app = new App();

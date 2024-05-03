@@ -5,8 +5,11 @@ class App{
     public function __construct(){
         //VALIDAMOS SI EXISTE UNA URL PARA LUEGO REDIRIGIR
         $url = isset($_GET['url']) ? $_GET['url'] : null;
+        if($url !== null){
         $url = rtrim($url, '/');
         $url = explode('/', $url);
+        }
+
 
         //VALIDACIONES PARA VERIFICAR QUE SE QUIERA CARGAR UN CONTROLADOR VALIDO
         if(empty($url[0])){
@@ -16,7 +19,7 @@ class App{
             $controller = new Login();
             $controller->loadModel('login');
             $controller->render();
-            return false;
+            return;
         }
         //EN CASO DE QUE LA URL SI CONTENGA UNA URL VALIDA
         $archivoController = 'controllers/'.$url[0].'php';
@@ -54,4 +57,5 @@ class App{
             //NO EXISTE EL ARCHIVO, MANDA ERROR
         }
     }
+    
 }
