@@ -9,3 +9,4 @@
 1. MySQL
 
 Proyecto realizado para fines practicos, siguiendo como base el presentado por el canal de youtube: Vida MRR - Programación Web
+modificado para utilizarlo en version 8.12 de PHP.
